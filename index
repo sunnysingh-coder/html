@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <form>
+<h2>complex form</h2>
+
+            <fieldset>
+
+
+                <legend>personal information</legend>
+                <input type="name" id="name" name="name">
+                <label for="name">enter name</label>
+                <input type="email" id="email" name="email">
+                <label for="email">enter email</label>
+                <input type="phone" id="phone" name="phone">
+                <label for="phone">enter phone</label>
+</br>
+<label for="dateofbirth">enter dateofbirth:</label>
+<input type="date" name="dateo fb irth" id="dateofbirth>
+<span>gender</span>
+<label for="radio1">male:</label>
+<input type="radio" name="radio1" id="radio1">
+
+<label for="radio2">female:</label>
+<input type="radio" name="radio2" id="radio2">
+
+<label for="radio3">other:</label>
+<input type="radio" name="radio3" id="radio3">
+</br>
+
+
+<label for="country">country</label>
+
+                <select name="country" id="country">
+                    <option value="a">up</option>
+                    <option value="b">Bengol</option>
+                     <option value="c">Caneda</option> 
+                     <option value="d">Delhi</option>
+                     </select>
+</fieldset>
+</br>
+<fieldset>
+<legend>adress</legend>
+<label for="street">street</legend>
+<input type="text" id="street" name="street">
+</br>
+<label for="state">state</legend>
+<input type="text" id="state" name="state">
+</br>
+
+<label for="city">city</legend>
+<input type="text" id="city" name="city">
+</br>
+<label for="ZIOcode">ZIOcode</legend>
+<input type="text" id="ZIOcode" name="ZIOcode">
+</fieldset>
+</br>
+
+
+                  
+
+
+              
+</br>
+<fieldset>
+<legend>other info</legend>
+</br>
+<label for="textarea1">comment</label>
+</br>
+<textarea name="textarea1" id="textarea1"  cols="30" rows="10"></textarea>
+<label for="term">i agree terms of services</label>
+<input type="checkbox" name="terms" id="terms">
+</fieldset>
+<input type="submit" value="submit">
+
+
+                
+        
+        </form>
+    </head>
+</html>
